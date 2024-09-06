@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .icon img{
+    object-fit: cover;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0033a0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Link Styled as Button */
+.link-btn {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.link-btn:hover {
+    background-color: #007bb5;
+}
+
+/* Center the link button */
+.link-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}

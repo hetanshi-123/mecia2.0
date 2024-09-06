@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash2Treasure - Registrations</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register for Trash2Treasure</h1>
+        <form id="registrationForm">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required>
+
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required>
+
+            <label for="Contact No.">Contact No.:</label>
+            <input type="Contact No." id="Contact No." name="Contact No." required>
+
+            <label for="Address">Address:</label>
+            <input type="Address" id="Address" name="Address" required>
+            
+
+            <button type="Register">Register</button>
+        </form>
+        <p id="message"></p>
+        <P><a href= "checkbox.html">Further Proceed</a></P>
+
+    </div>
+
+    <script src="rserver.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash2Treasure - Registration</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register for Trash2Treasure</h1>
+        <form id="registrationForm" method="post" action="http://127.0.0.1:5000/Register">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" required>
+
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required>
+            <label for="Contact_No.">Contact No.:</label>
+            <input type="Contact_No." id="Contact_No." name="Contact_No." required>
+
+            <label for="Address">Address:</label>
+            
+            <input type="Address" id="Address" name="Address" required>
+            
+
+            <button type="submit">Register</button>
+        </form>
+        <p id="message"></p>
+         <h1><a href= "ckeckbox.html">Further Proceed!!!</a></h1> 
+
+    </div>
+
+    <script src="rserver.js"></script>
+</body>
+</html>
